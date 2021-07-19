@@ -105,7 +105,7 @@
  div[class*="typeWindows-"] {
    --background-modifier-hover: rgba(var(--white), 0.05);
    --background-modifier-active: rgba(var(--white), 0.075);
-   height: 20px; /* Default 26px */
+   height: 26px; /* Default 26px */
  }
 
  div[class*="typeWindows-"]>div:first-child {
@@ -113,16 +113,16 @@
  }
 
  div[class*="typeWindows-"]>div[role="button"] {
-   height: 26px; /* Default 30px */
-   width: 32px; /* Default 36 px */
+   height: 30px; /* Default 30px */
+   width: 34px; /* Default 36 px */
  }
 
  div[class*="typeWindows-"]::after {
    content: 'Discord';
    font-weight: 5000;
-   line-height: 31px; /* Default 31px */
+   line-height: 30px; /* Default 31px */
    color: var(--text-muted);
-   font-size: 14px; /* Default 14px */
+   font-size: 12px; /* Default 14px */
    position: absolute;
    padding: 0 12px; /* Default 12px */
    top: 0;
