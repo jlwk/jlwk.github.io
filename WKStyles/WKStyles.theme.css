@@ -11,6 +11,12 @@
 /* Variables */
 :root {
   --avatar-size: 28px; /* Default 32px */
+  --rs-online-color: #18FF00FF;
+  --rs-idle-color: #FFEA3EFF;
+  --rs-dnd-color: #FF0000FF;
+  --rs-offline-color: #000000FF;
+  --rs-streaming-color: #08EBFFFF;
+  --rs-invisible-color: #07006CFF;
   --background-image: url('https://imgur.com/bWopxLA.png');
   --home-image: url('https://imgur.com/FJRtJLK.gif');
   --background-solid: #000000;
