@@ -105,7 +105,7 @@
  div[class*="typeWindows-"] {
    --background-modifier-hover: rgba(var(--white), 0.05);
    --background-modifier-active: rgba(var(--white), 0.075);
-   height: 26px; /* Default 26px */
+   height: 20px; /* Default 26px */
  }
 
  div[class*="typeWindows-"]>div:first-child {
@@ -113,8 +113,8 @@
  }
 
  div[class*="typeWindows-"]>div[role="button"] {
-   height: 30px; /* Default 30px */
-   width: 36px; /* Default 36 px */
+   height: 26px; /* Default 30px */
+   width: 32px; /* Default 36 px */
  }
 
  div[class*="typeWindows-"]::after {
@@ -164,7 +164,7 @@
  }
 
  ul[data-list-id='guildsnav'] [class^="pill-"] span {
-   width: 10px; /* Default 10px */
+   width: 5px; /* Default 10px */
    margin-left: -5px; /* Default -5px */
    border-radius: 20px; /* Default 20px */
  }
@@ -176,7 +176,7 @@
  span[class^="expandedFolderBackground-"] {
    --background-secondary: rgba(var(--black), 0.25);
    border-radius: 14px; /* Default 14px */
-   width: 40px; /* Default 40px */
+   width: 20px; /* Default 40px */
    left: 16px; /* Default 16px */
  }
 
